@@ -1,0 +1,36 @@
+-   2-satisfiability
+-   Binary search
+-   Bitmasks
+-   Brute force
+-   Сhinese remainder theorem
+-   Combinatorics
+-   Constructive algorithms
+-   Data structures: Heaps, binary search trees, segment trees, hash tables, etc
+-   Dfs and similar
+-   Divide and Conquer
+-   Dynamic programming
+-   Disjoint set union
+-   Parsing expression grammar
+-   Fast Fourier transform
+-   Graph network flows
+-   Games, Sprague–Grundy theorem
+-   Geometry, computational geometry
+-   Graph matchings, König's theorem, vertex cover of bipartite graph
+-   Graphs
+-   Greedy algorithms
+-   Hashing, hashtables
+-   Implementation problems, programming technics, simulation
+-   Interactive problem
+-   Mathematics including integration, differential equations, etc
+-   Matrix multiplication, determinant, Cramer's rule, systems of linear equations
+-   Meet-in-the-middle
+-   Number theory: Euler function, GCD, divisibility, etc
+-   Probabilities, expected values, statistics, random variables, etc
+-   Scheduling Algorithms
+-   Shortest paths on weighted and unweighted graphs
+-   Sortings, orderings
+-   Suffix arrays, suffix trees, suffix automatas, etc
+-   Prefix- and Z-functions, suffix structures, Knuth–Morris–Pratt algorithm, etc
+-   Ternary search
+-   Trees
+-   Two pointers
