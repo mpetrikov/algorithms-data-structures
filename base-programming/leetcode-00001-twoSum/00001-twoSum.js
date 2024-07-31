@@ -4,16 +4,16 @@
  * @return {number[]}
  */
 var twoSum = function (nums, target) {
-    const deductedAddition = new Map();
+    const complement = new Map();
 
     for (let i = 0; i < nums.length; i++) {
         const additionToCurrentNumber = target - nums[i];
 
-        if (deductedAddition.has(additionToCurrentNumber)) {
-            return [i, deductedAddition.get(deducted)];
+        if (complement.has(additionToCurrentNumber)) {
+            return [i, complement.get(additionToCurrentNumber)];
         }
 
-        deductedAddition.set(nums[i], i);
+        complement.set(nums[i], i);
     }
 
     return [-1, -1];
