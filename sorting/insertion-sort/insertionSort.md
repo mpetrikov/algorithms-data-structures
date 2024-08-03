@@ -1,4 +1,4 @@
-# Insertion sort
+# Insertion sorting
 
 There is no an insertion, just swaps (find a min and insert in a current position - selection sort)
 
