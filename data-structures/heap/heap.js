@@ -1,7 +1,11 @@
 const heap = () => {
     const heapData = [];
 
-    const getMin = () => heapData[0];
+    const getMin = () => {
+        if (heapData.length === 0) return null;
+
+        return heapData[0];;
+    }
 
     const getParentIndex = i => {
         return Math.floor((i - 1) / 2);
@@ -31,6 +35,8 @@ const heap = () => {
     };
 
     const removeMin = () => {
+        if (heapData.length === 0) return null;
+        
         const min = getMin();
 
         heapData[0] = heapData[heapData.length - 1];
