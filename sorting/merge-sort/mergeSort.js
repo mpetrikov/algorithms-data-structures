@@ -14,15 +14,15 @@ const merge = (a, b) => {
     }
 
     return result;
-}
+};
 
 const mergeSoftAsc = data => {
     if (data.length <= 1) return data;
 
-    const halfOfData = Math.round(data.length / 2);
+    const middleOfData = Math.round(data.length / 2);
 
-    const leftData = data.slice(0, halfOfData - 1);
-    const rightData = data.slice(halfOfData, data.length - 1);
+    const leftData = data.slice(0, middleOfData - 1);
+    const rightData = data.slice(middleOfData, data.length - 1);
     console.log(leftData, rightData);
 
     const leftSortedData = mergeSoftAsc(leftData);

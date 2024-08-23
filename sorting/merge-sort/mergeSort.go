@@ -27,10 +27,10 @@ func mergeSoftAsc(data []int) []int {
 		return data
 	}
 
-	halfOfData := len(data) / 2
+	middleOfData := len(data) / 2
 
-	leftData := mergeSoftAsc(data[0:halfOfData])
-	rightData := mergeSoftAsc(data[halfOfData:])
+	leftData := mergeSoftAsc(data[0:middleOfData])
+	rightData := mergeSoftAsc(data[middleOfData:])
 
 	result := merge(leftData, rightData)
 
