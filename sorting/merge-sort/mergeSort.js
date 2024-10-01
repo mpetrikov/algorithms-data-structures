@@ -21,8 +21,8 @@ const mergeSoftAsc = data => {
 
     const middleOfData = Math.round(data.length / 2);
 
-    const leftData = data.slice(0, middleOfData - 1);
-    const rightData = data.slice(middleOfData, data.length - 1);
+    const leftData = data.slice(0, middleOfData);
+    const rightData = data.slice(middleOfData, data.length);
     console.log(leftData, rightData);
 
     const leftSortedData = mergeSoftAsc(leftData);
